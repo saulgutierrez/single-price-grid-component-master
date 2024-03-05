@@ -134,6 +134,11 @@ main section:nth-child(2) > div:nth-child(1) > div:nth-child(3) {
     align-items: center;
 }
 
+main section:nth-child(2) > div:nth-child(1) > div:nth-child(3):hover {
+    background-color: hsl(218, 22%, 67%);
+    cursor: pointer;
+}
+
 main section:nth-child(2) > div:nth-child(2) {
     position: relative;
     width: 50%;
